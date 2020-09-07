@@ -1,0 +1,37 @@
+/*=======================================/   Statics   \=========================================*/
+
+.statics{
+    background: url(../images/background/background2.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 280px;
+    position: relative;
+    padding: 60px 0px;
+    margin-bottom: 100px;
+}
+
+.static-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+}
+
+.static-item .fa{
+    color: #6195FF;
+}
+
+.static-item .static-num{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 25px 0px;
+    text-transform: uppercase;   
+}
+
+.static-item .static-desc{
+    font-size: 17px;
+    text-transform: capitalize;
+    line-height: 1.6em;
+}

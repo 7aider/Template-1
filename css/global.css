@@ -1,0 +1,183 @@
+/*
+    ===========================================================================================    
+    ======================================== Strucsure ========================================
+    ===========================================================================================
+    1- Global
+    2- Common
+    3- Sections
+    ===========================================================================================
+    ======================================== Global ===========================================
+    ===========================================================================================
+    - Body
+    .clr
+    .container
+    - a
+    - ul
+    ===========================================================================================
+    ======================================== Common ===========================================
+    ===========================================================================================
+    .link-opacity 
+    .current
+    .overlay
+    .section-header (div)
+    .section-title (h2)
+    .fa ( Font Awsome icons)
+    .pd-y ( padding top 120px and bottom 120px)
+    .mg-x ( margin left 5% and right 5%)
+    .title-line (span / blue line under section header)
+    .ltr-effect ( left to right dark mode to boxes)
+    
+
+    ===========================================================================================
+    ======================================== Sections =========================================
+    ===========================================================================================
+    1- Header
+        - Logo
+        - Nav
+    2- Showcase
+    3- About
+    4- Portofolio
+    5- Services
+    6- Services-2
+    7- Statics
+    8- Prices
+        -ttb-effect ( top to bottom dark mode)
+    9- Team
+
+
+
+
+*/
+
+
+
+/*========================================/ Global \=========================================*/
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    font-family: "Varela Round", sans-serif ;
+    line-height: 1.6em;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*========================================/ Common \=========================================*/
+/*dark overlay for background*/
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
+}
+/*-----------------------------*/
+
+/* button style and opacity effect*/
+.btn{
+    border-radius: 3px;
+    border: 0;
+    padding: 15px 33px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+/*----------------------------------*/
+
+/*padding and margin*/
+.pd-y{
+    padding: 126px 0px;
+}
+
+.mg-x{
+    margin: 0 5%;
+}
+
+
+/*blue line under header titles */
+.title-line{
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 70px;
+    background: #6195FF;
+    margin-bottom: 74px;
+}
+
+
+/* left to right dark mode effect */
+.ltr-effect{
+    position: relative;
+}
+.ltr-effect::after{
+    position: absolute;
+    content: "";
+    background: #1C1D21;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: -1;
+}
+.ltr-effect:hover:after {
+    width: 100%;  
+}
+.ltr-effect:hover .about-item-title ,
+.ltr-effect:hover .serv-title{
+    color: #ffffff;
+    transition: 0.2s color;
+}
+/*--------------------------------------*/
+
+/* top to bottom dark mode effect*/
+.ttb-effect{
+    position: relative;
+}
+
+.ttb-effect::after{
+    position: absolute;
+    content: "";
+    background: #1C1D21;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    transition: 0.2s;  
+}
+/*----------------------------------*/
+
+

@@ -1,0 +1,80 @@
+/*===============================================/ Contacts \===============================================*/
+
+
+.cont-item{
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+
+.cont-item.mg-x{
+    margin: 0 1.7%;
+    
+}
+
+.cont-item .fa{
+    color: #6195ff;
+}
+
+.cont-title{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cont-desc{
+    color: #868F9B;
+}
+
+/* Form */
+
+.form{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-input{
+    background: #f4f4f4;
+    float: left;
+    width: 48%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    height:40px ;
+    font-size: 17px;
+    opacity: 0.6;
+    transition:0.2s opacity , border-color 0.2s;
+}
+
+
+
+
+#form-email{
+    margin-left: 4%;
+}
+
+#form-subject ,#form-message{
+    width: 100%;
+}
+
+#form-message{
+    height: 120px;
+}
+
+.form-btn{
+    background: #6195FF;
+    color: #ffffff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+
+
+.form-input:focus{
+    border-bottom: 2px #6195FF solid;
+    opacity: 1;
+    
+}

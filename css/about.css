@@ -1,0 +1,47 @@
+/*========================================/  About  \=========================================*/
+
+
+/* About Header*/
+
+.section-header{
+    text-align: center;
+}
+
+.section-header .section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+/* About Content*/
+.about-item{
+    float: left;
+    width: 30%;
+    text-align: center;
+    border: 1px #e8e8e8 solid;
+    padding: 50px 20px;
+}
+
+
+
+
+.about-item .fa{
+    color: #6195FF;
+    margin-bottom: 10px;
+}
+
+.about-item-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.about-item-desc{
+    color: #868F9B;
+}
+
+.about-item-link{
+    color: #6195FF;
+    text-transform: capitalize;
+}

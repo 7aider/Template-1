@@ -1,0 +1,63 @@
+/*===============================================/ Web Designers \===============================================*/
+
+
+.designe{
+    background: url(../images/background/background3.webp) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.designe-content{
+    margin: 0 10px;
+}
+
+.designe-item{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding: 25px 20px;
+}
+
+.designe-profile-pic{
+    float: left;
+    width: 20%;
+    padding: 0 px;
+}
+
+.pic-attatchment{
+    float: left;
+    width: 80%;
+    padding:5px ;
+    text-align: left;
+}
+
+.designe-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.designer-name{
+    color:#ffffff;
+    margin: 5px;
+    text-transform: capitalize;
+    font-size: 23px;
+}
+
+.designer-title{
+    color: #6195ff;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.designe-desc{
+    color: #ffffff;
+    padding-top: 10px;
+    margin: 0;
+}

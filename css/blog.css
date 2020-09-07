@@ -1,0 +1,51 @@
+/*===============================================/ Blog \===============================================*/
+
+.blog{
+    background: #f4f4f4;
+}
+
+.blog-item{
+    float: left;
+    width: 32%;
+    background: #ffffff;
+    
+}
+
+.blog-item.mg-x{
+    margin: 0 1.8%;
+}
+
+.blog-img img{
+    width: 100%;
+}
+
+.blog-list{
+    margin: 15px;
+}
+
+.blog-list li{
+    display: inline-block;
+    color:black;
+    margin-right:10px;
+}
+
+.blog-list li i{
+    padding-right:3px ;
+    color: #6195ff;
+}
+
+.blog-info{
+    padding: 0 15px 50px 15px ;
+    text-align: left;
+}
+
+.blog-desc{
+    color: #868F9B;
+}
+
+
+.blog-info a{
+    color: #6195ff;
+    text-transform: capitalize;
+    font-size: 17px;
+}

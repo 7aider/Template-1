@@ -1,0 +1,42 @@
+/*========================================/ Showcase \=========================================*/
+
+.showcase{
+    background: url(../images/background/background1.webp) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.showcase-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+    text-align: center;
+    width: 80%;
+    color: #f4f4f4;
+}
+
+.showcase-content h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.showcase p{
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn-learn{
+    background: #ffffff;
+}
+
+.btn-learn{
+    background: #6195FF;
+    color: #ffffff;
+    margin-left: 5px;
+}

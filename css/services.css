@@ -1,0 +1,104 @@
+/*=======================================/   Services   \=========================================*/
+
+
+.serv-item{
+    float: left;
+    width: 32%;
+    padding: 20px 15px 30px 70px;
+    margin-bottom: 20px;
+    border: 1px #e8e8e8 solid;
+    position: relative;
+}
+
+.serv-item.mg-x{
+    margin: 0 2%;
+}
+
+.serv-title{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.serv-desc{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6em;
+    color: #868F9B;
+}
+
+.serv-item .fa{
+    color: #6195FF;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+/*=======================================/   Services-2   \=========================================*/
+
+.services2{
+    background:#f5f3f3 ;
+}
+
+.serv2-item{
+  float: left;  
+  width: 50%;  
+}
+
+.serv2-item .section-header{
+    text-align: left;
+}
+
+.serv2-item .title-line{
+    margin-left: 0%;
+    width: 45px;
+}
+
+.serv2-item .serv2-desc ,
+.serv2-item .serv2-list{
+    color: #868F9B;
+    padding-right:  25px;
+}
+
+.serv2-desc{
+    line-height: 1.6em;
+}
+
+
+.serv2-list{
+    line-height: 1.9em;
+}
+.serv2-list .fa{
+    color: #6195FF;
+    border-radius: 50%;
+    border: 1px #6195ff solid;
+    padding: 5px;
+    margin: 0px 2px 10px 0px;
+}
+
+
+/* Right side image*/
+.serv2-slide{
+    float: left;
+    width: 50%;
+}
+
+.serv2-img img{
+    width: 100%;
+}
+
+
+.serv-img-bollets{
+    text-align: center;
+} 
+.serv-img-bollets .bollet{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    margin: 10px 8px;
+    border-radius: 30%;
+}
+
+.serv-img-bollets .bollet.active{
+    background-color: #6195FF;
+    width: 20px;
+}
